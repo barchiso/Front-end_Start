@@ -1,0 +1,1622 @@
+body{
+    background: #EFEFF2;
+    margin: 0;
+    color: #19191c;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0 0;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: #19191c;
+    text-decoration: none;
+}
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191c;
+    text-decoration: none;
+}
+.header__link{
+    color: #19191c;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    background: #19191c;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 230px 0;
+    background: 
+    url(../img/courses_and_image.png) 135% 120% no-repeat, 
+    url(../img/rectangle_107.png) 99% 100% no-repeat, 
+    url(../img/ellipse_21.png) 130% 50% no-repeat, 
+    url(../img/ellipse_22.png) 90% 200% no-repeat;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 230px 0;
+    background: 
+    url(../img/businesswoman_1.png) 140% 100% no-repeat,
+    url(../img/rectangle_107.png) 100% 100% no-repeat, 
+    url(../img/ellipse_21.png) 130% 50% no-repeat, 
+    url(../img/ellipse_22.png) 90% 200% no-repeat
+}
+.offer__holder{
+    max-width: 648px; 
+    padding-top: 186px;
+    background: url(../img/ellipse_20.png) 100% 100% no-repeat;
+}
+.offer__title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0 0 18px;
+}
+.offer__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 62px;
+}
+.offer__link{
+    font-weight: 700;
+    text-decoration: none;
+    color: #504dee;
+}
+.offer__button{
+    background: #504DEE;
+    color: #FBFBFC;
+    border: none;
+    padding: 16px 37px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 110px;
+}
+.offer__sale{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+.offer__time{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+.offer__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191c;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__marketer{
+    top: 233px;
+    right: 1px;
+}
+.offer__illustrator{
+    top: 137px;
+    right: 223px;
+}
+.offer__animator{
+    top: 219px;
+    right: 462px;
+}
+.offer__programmer{
+    top: 412px;
+    right: 570px;
+}
+.offer__designer{
+    top: 575px;
+    left: -73px;
+}
+.offer__photographer{
+    top: 730px;
+    left: 12px;
+}
+.learn{
+    background: #19191c;
+    color: #FBFBFC;
+    padding: 168px 0 159px 0;
+}
+.learn__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.learn__text{
+    max-width: 588px;
+}
+.learn__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0 0 14px;
+}
+.learn__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.learn__counters{
+    width: 706px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.learn__counter-item{
+    border-bottom: 4px solid #FBFBFC;
+    max-width: 178px;
+    max-height: 119px;
+}
+.learn__counter-number{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+.learn__counter-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+.discover{
+    padding: 168px 0 168px 0;
+    background: #FBFBFC;
+}
+.discover__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    max-width: 594px;
+    margin: 0;
+    padding: 0 0 45px;
+}
+.discover__nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 65px;
+}
+.discover__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.discover__button{
+    background: #FBFBFC;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.discover__button-active{
+    border: none;
+    background: #FBFBFC;
+    border-bottom: 4px solid #19191c;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.discover__more{
+    display: flex;
+    gap: 18px;
+    text-decoration: none;
+    color: #19191C;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.discover__cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.discover__card-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+    padding: 28px 0 11px;
+}
+.discover__card-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+.help{
+    background: #DEEFE4;
+    color: #19191C;
+    padding: 168px 0 168px 0;
+}
+.help__info{
+    display: flex;
+    justify-content: space-between;
+}
+.help__tite{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    max-width: 801px;
+    margin: 0;
+    padding: 0 0 28px;
+}
+.help__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+.help__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.help__field{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #19191c;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 710px;
+}
+::placeholder{
+    color: #19191c;
+}
+.help__button{
+    background: #19191C;
+    color: #FBFBFC;
+    border: none;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    width: 144px;
+    height: 54px;
+}
+.course__title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0 0 48px;
+}
+.course__month{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 84px;
+    margin: 0;
+    border-bottom: 4px solid #504DEE;
+}
+.course__profession{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 2px;
+    padding: 40px 0 0;
+}
+.course__description{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 50px;
+}
+.course__item{
+    position: absolute;
+    border: 2px solid #19191c;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.course__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.course__invision{
+    top: 232px;
+    right: 1px;
+}
+.course__protopie{
+    top: 166px;
+    right: 223px;
+}
+.course__miro{
+    top: 240px;
+    right: 487px;
+}
+.course__photoshop{
+    top: 422px;
+    right: 467px;
+}
+.course__figma{
+    top: 559px;
+    left: -115px;
+}
+.course__illustrator{
+    top: 818px;
+    left: 25px;
+}
+.profession{
+    padding: 168px 0 0 0;
+    background: #FBFBFC;
+}
+.profession__data{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 168px;
+}
+.profession__info{
+    max-width: 588px;
+}
+.profession__info-title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0 0 28px;
+}
+.profession__info-name{
+    border-bottom: 4px solid #19191C;
+    max-width: 254px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.profession__info-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.profession__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.profession__list-item{
+    max-width: 468px;
+    height: 329px;
+}
+.profession__list-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    margin: 68px 50px 0;
+    padding: 0 0 40px;
+}
+.profession__list-description{
+    border-top: 4px solid #19191C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 360px;
+    margin: 0 68px 50px;;
+    padding: 12px 0 0;
+}
+.profession__portfolio{
+    background: #DEEFE4;
+}
+.profession__internship{
+    background: #F3F3D7;
+}
+.profession__certificate{
+    background: #EFDEEE;
+}
+.price{
+    padding: 171px 0 168px 0;
+    background: #FBFBFC;
+}
+.price__t{
+    max-width: 500px;
+}
+.prices__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0 0 100px;
+}
+.subscibtions{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.subscibtions__items{
+    width: 467px;
+    height: 732px;
+}
+.subscibtions__item-title{
+    font-size: 41px;
+    line-height: 34px;
+    font-weight: 700;
+    margin: 50px 0 45px 68px;
+}
+.subscibtions__item-overall{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0 50px 3px;
+}
+.subscibtions__items-price{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0 50px 18px;
+}
+.subscibtion__item-optimal-list{
+    display: flex;
+    margin: 0 50px 120px;
+    list-style-type: square;
+    row-gap: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscibtion__item-premium-list{
+    display: flex;
+    margin: 0 50px 120px;
+    list-style-type: square;
+    row-gap: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscibtion__item-base-list{
+    display: flex;
+    margin: 0 50px 170px;
+    list-style-type: square;
+    row-gap: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub__list-text{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.sub__list-base-text{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.subscibtions__items-button{
+    background: #19191C;
+    color: #FBFBFC;
+    border: none;
+    padding: 16px 37px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 50px 67px;
+}
+.subscibtions__optimal-button{
+    background: #FBFBFC;
+    color: #504DEE;
+    border: none;
+    padding: 16px 37px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 50px 67px;
+}
+.sub__base{
+    background: #DEEFE4;
+}
+.sub__optimal{
+    background: #504DEE;
+    color: #FBFBFC;
+}
+.sub__premium{
+    background: #DEEFE4;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 43px 0 0 0;
+    background: #19191c;
+    color: #FBFBFC;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 0;
+    gap: 30px;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 0;
+    list-style: none;
+}
+.footer__link{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.sitemap{
+    display: flex;
+    flex-direction: column;
+}
+.sitemap__title{
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBFBFC;
+}
+.sitemap__list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 12px;
+}
+.sitemap__list-item{
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FBFBFC;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6D6D77;
+}
+.policy{
+    text-decoration: none;
+    color: #6D6D77;
+}
+@media screen and (min-width: 400px) and (max-width: 540px) {
+        .header {
+        padding: 36px 30px 0 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__box {
+        justify-content: center;
+        gap: 20px;
+    }
+    .logo {
+        justify-content: center;
+        gap: 5px;
+        font-size: inherit;
+    }
+    .nav__list{
+        gap: 10px;
+    }
+    .btn-box {
+        justify-content: center;
+        gap: 20px;
+    }
+    .offer {
+        background: url(../img/courses_and_image.png) 64% 191% no-repeat,
+        url(../img/rectangle_107.png) 5% 121% no-repeat;
+    }
+    .offer__holder {
+        padding: 50px 30px 0 30px;
+        background: url(../img/ellipse_20.png) 128% -100% no-repeat
+    }
+    .offer__description {
+        font-weight: 400;
+        margin: 0 0 40px;
+    }
+    .offer__link {
+        color: #C70039;
+    }
+    .offer__button {
+        background: #C70039;
+        color: #19191C;
+        text-shadow: 2px 2px 4px #ffffff;
+        padding: 10px 27px;
+    }
+    .offer__sale {
+        color: #C70039;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 900;
+    }
+    .offer__time {
+        color: #C70039;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 900;
+    }
+    .offer__list {
+        display: none;
+    }
+    .learn {
+        padding: 100px 30px 100px 30px;
+    }
+    .learn__info {
+        flex-wrap: wrap;
+    }
+    .learn__counters {
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .discover {
+        padding: 100px 30px 100px 30px;
+    }
+    .discover__nav {
+        margin: 0 0 50px;
+    }  
+    .discover__list {
+        gap: 0px;
+    }
+    .discover__button {
+        display: none;
+    }
+    .discover__cards {
+        flex-wrap: wrap;
+    }
+    .help {
+        padding: 100px 30px 100px 30px;
+    }
+    .help__info {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .help__form {
+        gap: 35px;
+    }
+    .help__field {
+        width: auto;
+    }
+    .help__button {
+        width: auto;
+    }
+    .course {
+        background: url(../img/businesswoman_1.png) 35% 142% no-repeat, url(../img/rectangle_107.png) -3% 108% no-repeat;
+    }
+    .course__profession {
+        padding: 20px 0 0;
+    }
+    .course__title {
+        margin: 25px 0 25px;
+    }
+    .course__list {
+        display: none;
+    }
+    .profession {
+        padding: 50px 30px 50px 30px;
+    }
+    .profession__data {
+        padding: 0 0 25px;
+        flex-flow: wrap;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .profession__info-description {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .profession__info-name {
+        margin: 0;
+        padding: 0 0 15px;
+    }
+    .profession__info-description {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .profession__list {
+        flex-flow: wrap;
+    }
+    .profession__list-item {
+        height: auto;
+    }
+    .profession__list-title {
+        margin: 0;
+        padding: 0;
+    }
+    .profession__list-description {
+        margin: 0;
+    }
+    .profession__portfolio {
+        padding: 50px;
+    }
+    .profession__internship {
+        padding: 50px;
+    } 
+    .profession__certificate{
+        padding: 50px;
+    }
+    .price {
+        padding: 50px 30px 50px 30px;
+    }
+    .prices__title {
+        padding: 0 0 50px;
+    }
+    .subscibtions {
+        flex-flow: wrap;
+    }
+    .subscibtions__item-title {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .subscibtions__item-overall {
+        margin: 0;
+        padding: 20px 0 0;
+    }
+    .subscibtions__items-price {
+        margin: 0;
+        padding: 10px 0 20px 0;
+    }
+    .subscibtions__items-button {
+        margin: 0;
+    }
+    .subscibtions__optimal-button{
+        margin: 0;
+    }
+    .sub__base {
+        padding: 50px;
+    }
+    .sub__optimal {
+        padding: 50px;
+    }
+    .sub__premium {
+        padding: 50px;
+    }
+    .subscibtions__items {
+        height: auto;
+    }
+    .subscibtion__item-base-list {
+        margin: 0;
+        padding: 0 20px 20px;
+        row-gap: 10px;
+    }
+    .subscibtion__item-optimal-list{
+        margin: 0;
+        padding: 0 20px 20px;
+        row-gap: 10px;
+    }
+    .subscibtion__item-premium-list{
+        margin: 0;
+        padding: 0 20px 20px;
+        row-gap: 10px;
+    }
+    .footer {
+        gap: 25px;
+        padding: 50px 30px 0 30px;
+        flex-direction: column;
+    }
+    .footer__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .footer__contact {
+        gap: 5px;
+        align-items: center;
+    }
+    .footer__list {
+        gap: 15px;
+    }
+    .sitemap__title {
+        display: flex;
+        font-weight: 900;
+        margin: 0;
+        justify-content: center;
+    }
+    .sitemap__list {
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright {
+        gap: 5px;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 399px){
+    .header {
+        padding: 36px 30px 0 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__box {
+        justify-content: space-between;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .logo {
+        justify-content: center;
+        gap: 5px;
+        font-size: inherit;
+    }
+    .nav__list{
+        gap: 10px;
+    }
+    .btn-box {
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .offer {
+        background: url(../img/courses_and_image.png) 64% 191% no-repeat,
+        url(../img/rectangle_107.png) 5% 121% no-repeat;
+    }
+    .offer__holder {
+        padding: 50px 30px 0 30px;
+        background: url(../img/ellipse_20.png) 128% -100% no-repeat
+    }
+    .offer__description {
+        font-weight: 400;
+        margin: 0 0 40px;
+    }
+    .offer__link {
+        color: #C70039;
+    }
+    .offer__button {
+        background: #C70039;
+        color: #19191C;
+        text-shadow: 2px 2px 4px #ffffff;
+        padding: 10px 27px;
+    }
+    .offer__sale {
+        color: #C70039;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 900;
+    }
+    .offer__time {
+        color: #C70039;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 900;
+    }
+    .offer__list {
+        display: none;
+    }
+    .learn {
+        padding: 100px 30px 100px 30px;
+    }
+    .learn__info {
+        flex-wrap: wrap;
+    }
+    .learn__counters {
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .discover {
+        padding: 100px 30px 100px 30px;
+    }
+    .discover__nav {
+        margin: 0 0 50px;
+    }  
+    .discover__list {
+        gap: 0px;
+    }
+    .discover__button {
+        display: none;
+    }
+    .discover__cards {
+        flex-wrap: wrap;
+    }
+    .discover__card-image {
+        max-height: 325px;
+    }
+    .help {
+        padding: 100px 30px 100px 30px;
+    }
+    .help__info {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .help__form {
+        gap: 35px;
+    }
+    .help__field {
+        width: auto;
+    }
+    .help__button {
+        width: auto;
+    }
+    .course {
+        background: url(../img/businesswoman_1.png) 35% 142% no-repeat, url(../img/rectangle_107.png) -3% 108% no-repeat;
+    }
+    .course__profession {
+        padding: 20px 0 0;
+    }
+    .course__title {
+        margin: 25px 0 25px;
+    }
+    .course__list {
+        display: none;
+    }
+    .profession {
+        padding: 50px 30px 50px 30px;
+    }
+    .profession__data {
+        padding: 0 0 25px;
+        flex-flow: wrap;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .profession__info-description {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .profession__info-name {
+        margin: 0;
+        padding: 0 0 15px;
+    }
+    .profession__info-description {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .profession__list {
+        flex-flow: wrap;
+    }
+    .profession__list-item {
+        height: 200px;
+    }
+    .profession__list-title {
+        margin: 0;
+        padding: 0;
+    }
+    .profession__list-description {
+        margin: 0;
+    }
+    .profession__portfolio {
+        padding: 50px;
+    }
+    .profession__internship {
+        padding: 50px;
+    } 
+    .profession__certificate{
+        padding: 50px;
+    }
+    .price {
+        padding: 50px 30px 50px 30px;
+    }
+    .prices__title {
+        padding: 0 0 50px;
+    }
+    .subscibtions {
+        flex-flow: wrap;
+    }
+    .subscibtions__item-title {
+        margin: 0;
+        padding: 0 0 25px;
+    }
+    .subscibtions__item-overall {
+        margin: 0;
+        padding: 20px 0 0;
+    }
+    .subscibtions__items-price {
+        margin: 0;
+        padding: 10px 0 20px 0;
+    }
+    .subscibtions__items-button {
+        margin: 0;
+    }
+    .subscibtions__optimal-button{
+        margin: 0;
+    }
+    .sub__base {
+        padding: 50px;
+    }
+    .sub__optimal {
+        padding: 50px;
+    }
+    .sub__premium {
+        padding: 50px;
+    }
+    .subscibtion__item-base-list {
+        margin: 0;
+        padding: 0 20px 20px;
+        row-gap: 10px;
+    }
+    .subscibtion__item-list{
+        margin: 0;
+        padding: 0 20px 20px;
+        row-gap: 10px;
+    }
+    .footer {
+        gap: 25px;
+        padding: 50px 30px 0 30px;
+        flex-direction: column;
+    }
+    .footer__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .footer__contact {
+        gap: 5px;
+        align-items: center;
+    }
+    .footer__list {
+        gap: 15px;
+    }
+    .sitemap__title {
+        display: flex;
+        font-weight: 900;
+        margin: 0;
+        justify-content: center;
+    }
+    .sitemap__list {
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright {
+        gap: 5px;
+        flex-direction: column;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 541px) and (max-width: 919px){
+    .header{
+        gap: 20px;
+        padding: 30px 50px 0 50px;
+    }
+    .logo {
+        gap: 20px;
+        font-size: 20px;
+    }
+    .nav__list {
+        gap: 20px;
+    }
+    .btn-box {
+        gap: 20px;
+    }
+    .header__box {
+        gap: 20px;
+    }
+    .header__btn {
+        padding: 10px 25px;
+    }
+    .offer {
+        padding: 0 50px 230px 50px;
+        background: url(../img/courses_and_image.png) 79% 134% no-repeat, 
+        url(../img/rectangle_107.png) 90% 103% no-repeat, 
+        url(../img/ellipse_21.png) 130% 50% no-repeat, 
+        url(../img/ellipse_22.png) 90% 200% no-repeat;
+    }
+    .course {
+        padding: 0 50px 230px 50px;
+        background: url(../img/businesswoman_1.png) -500% 100% no-repeat, 
+        url(../img/rectangle_107.png) 100% 100% no-repeat, 
+        url(../img/ellipse_21.png) 130% 50% no-repeat, 
+        url(../img/ellipse_22.png) 90% 200% no-repeat;
+    }
+    .offer__holder {
+        padding-top: 100px;
+        background: url(../img/ellipse_20.png) 300% 300% no-repeat;
+    }
+    .offer__holder {
+        padding-top: 50px;
+        background: url(../img/ellipse_20.png) 300% 300% no-repeat;
+    }
+    .offer__list {
+        display: none;
+    }
+    .course__list {
+        display: none;
+    }
+    .learn {
+        padding: 100px 50px 100px 50px;
+    }
+    .learn__info {
+        flex-wrap: wrap;
+    }
+    .learn__text {
+        max-width: 920px;
+        padding: 0 0 30px;
+    }
+    .discover {
+        padding: 100px 50px 100px 50px;
+    }
+    .discover__nav {
+        margin: 0 0 25px;
+        gap: 10px;
+        align-items: center;
+    }
+    .discover__list {
+        gap: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .discover__button {
+        display: none;
+    }
+    .discover__more {
+        gap: 10px;
+        text-decoration: none;
+        color: #19191C;
+        align-self: center;
+    }
+    .discover__cards {
+        flex-wrap: wrap;
+    }
+    .discover__card-image {
+        width: 320px;
+    }
+    .help {
+        padding: 100px 50px 100px 50px;
+    }
+    .help__info {
+        flex-wrap: wrap;
+    }
+    .help__tite {
+        padding: 0;
+    }
+    .help__description {
+        padding: 25px 0 50px;
+    }
+    .help__form {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .help__field {
+        width: 420px;
+    }
+    .help__button {
+        width: auto;
+    }
+    .profession {
+        padding: 50px;
+    }
+    .profession__data {
+        justify-content: flex-start;
+        padding: 0 0 50px;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .profession__info {
+        max-width: 920px;
+    }
+    .profession__list-item {
+        padding: 25px;
+        height: auto;
+    }
+    .profession__list-title {
+        margin: 0;
+    }
+    .profession__list-description {
+        margin: 0;
+    }
+    .price {
+        padding: 50px;
+    }
+    .price__t {
+        max-width: 920px;
+    }
+    .prices__title {
+        padding: 0 0 50px;
+    }
+    .subscibtions {
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+    .subscibtions__items {
+        padding: 25px;
+        height: auto;
+    }
+    .subscibtions__item-title {
+        margin: 0;
+        padding: 0 0 25px;
+    } 
+    .subscibtions__item-overall {
+        font-size: 18px;
+        margin: 0;
+    }
+    .subscibtions__items-price {
+        font-size: 38px;
+        margin: 0;
+        padding: 5px 0 20px;
+    }
+    .subscibtion__item-base-list {
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 230px 20px;
+    }
+    .subscibtion__item-optimal-list{
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 100px 20px;
+    }
+    .subscibtion__item-premium-list{
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 130px 20px;
+    }
+    .subscibtions__items-button {
+        margin: 0;
+
+    }
+    .subscibtions__optimal-button {
+        margin: 0;
+    }
+    .footer{
+         gap: 20px;
+         padding: 50px 50px 0 50px;
+         align-items: center;
+         align-content: space-between;
+   }
+   .footer__box {
+        justify-content: space-around;
+        gap: 10px;
+        margin: 0;
+    }
+    .footer__contact {
+        padding: 20px 0 0;
+        gap: 20px;
+    }
+    .footer__list {
+        gap: 15px;
+    }
+    .footer__link {
+        font-size: 18px;
+    }
+    .copyright {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1280px){
+    .header{
+        gap: 15px;
+        padding: 30px 50px 0 50px;
+        
+    }
+    .nav__list {
+        gap: 25px;
+    }
+    .btn-box {
+        gap: 25px;
+    }
+    .header__btn {
+        padding: 10px 25px;
+    }
+    .offer {
+        padding: 0 50px 230px 50px;
+        background: url(../img/courses_and_image.png) 79% 134% no-repeat, 
+        url(../img/rectangle_107.png) 90% 103% no-repeat, 
+        url(../img/ellipse_21.png) 130% 50% no-repeat, 
+        url(../img/ellipse_22.png) 90% 200% no-repeat;
+    }
+    .course {
+        padding: 0 50px 230px 50px;
+        background: url(../img/businesswoman_1.png) 150% 100% no-repeat, 
+        url(../img/rectangle_107.png) 100% 100% no-repeat, 
+        url(../img/ellipse_21.png) 130% 50% no-repeat, 
+        url(../img/ellipse_22.png) 90% 200% no-repeat;
+    }
+    .offer__holder {
+        padding-top: 100px;
+        background: url(../img/ellipse_20.png) 300% 300% no-repeat;
+    }
+    .offer__holder {
+        padding-top: 50px;
+        background: url(../img/ellipse_20.png) 300% 300% no-repeat;
+    }
+    .offer__list {
+        display: none;
+    }
+    .course__list {
+        display: none;
+    }
+    .learn {
+        padding: 100px 50px 100px 50px;
+    }
+    .learn__info {
+        flex-wrap: wrap;
+    }
+    .learn__text {
+        max-width: 920px;
+        padding: 0 0 30px;
+    }
+    .discover {
+        padding: 100px 50px 100px 50px;
+    }
+    .discover__nav {
+        margin: 0 0 25px;
+        gap: 10px;
+        align-items: center;
+    }
+    .discover__list {
+        gap: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .discover__more {
+        gap: 10px;
+        text-decoration: none;
+        color: #19191C;
+        align-self: center;
+    }
+    .discover__cards {
+        flex-wrap: wrap;
+    }
+    .help {
+        padding: 100px 50px 100px 50px;
+    }
+    .help__info {
+        flex-wrap: wrap;
+    }
+    .help__tite {
+        padding: 0;
+    }
+    .help__description {
+        padding: 25px 0 50px;
+    }
+    .help__form {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .help__button {
+        width: auto;
+    }
+    .profession {
+        padding: 50px;
+    }
+    .profession__data {
+        justify-content: flex-start;
+        padding: 0 0 50px;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .profession__info {
+        max-width: 920px;
+    }
+    .profession__list-item {
+        padding: 25px;
+    }
+    .profession__list-title {
+        margin: 0;
+    }
+    .profession__list-description {
+        margin: 0;
+    }
+    .price {
+        padding: 50px;
+    }
+    .price__t {
+        max-width: 920px;
+    }
+    .prices__title {
+        padding: 0 0 50px;
+    }
+    .subscibtions {
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+    .subscibtions__items {
+        padding: 25px;
+        height: auto;
+    }
+    .subscibtions__item-title {
+        margin: 0;
+        padding: 0 0 25px;
+    } 
+    .subscibtions__item-overall {
+        margin: 0;
+    }
+    .subscibtions__items-price {
+        font-size: 48px;
+        margin: 0;
+        padding: 5px 0 20px;
+    }
+    .subscibtion__item-base-list {
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 200px 20px;
+    }
+    .subscibtion__item-optimal-list{
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 100px 20px;
+    }
+    .subscibtion__item-premium-list{
+        margin: 0;
+        row-gap: 15px;
+        padding: 0 0 125px 20px;
+    }
+    .subscibtions__items-button {
+        margin: 0;
+
+    }
+    .subscibtions__optimal-button {
+        margin: 0;
+    }
+    .footer{
+        gap: 20px;
+        padding: 50px 50px 0 50px;
+        align-items: center;
+        align-content: space-between;
+        justify-content: center;
+   }
+   .footer__box {
+        justify-content: space-around;
+        gap: 75px;
+        margin: 0;
+    }
+    .footer__contact {
+        padding: 20px 0 0;
+        gap: 20px;
+    }
+    .footer__list {
+        gap: 15px;
+    }
+    .footer__link {
+        font-size: 18px;
+    }
+    .copyright {
+        flex-wrap: wrap;
+    }
+}
+button:hover {
+    background-color: #6D6D77;
+    color: #EFEFF2;
+  }
+button:active {
+    background-color: #C70039;
+    color: #EFEFF2;
+  }
+input:focus {
+    background-color: whitesmoke;
+}
+.logo:hover {
+    background-color: #6D6D77;
+}
+.logo:active {
+    background-color: #C70039;
+}
+.link:hover {
+    background-color: #6D6D77;
+    color: #EFEFF2;
+}
+.link:active {
+    background-color: #C70039;
+    color: #EFEFF2;
+}
+.header__link:hover {
+    background-color: #6D6D77;
+    color: #EFEFF2;
+}
+.header__link:active {
+    background-color: #C70039;
+    color: #EFEFF2;
+}
+.header__btn:hover {
+    background-color: #6D6D77;
+}
+.header__btn:active {
+    background-color: #C70039;
+}
+.discover__more:hover {
+    background-color: #6D6D77;
+    color: #EFEFF2;
+}
+.discover__more:active {
+    background-color: #C70039;
+    color: #EFEFF2;
+}
+.footer__logo:hover {
+    background-color: #6D6D77;
+}
+.footer__logo:active {
+    background-color: #C70039;
+}
+.footer__link:hover {
+    background-color: #6D6D77;
+}
+.footer__link:active {
+    background-color: #C70039;
+}
+.sitemap__list-item:hover {
+    background-color: #6D6D77;
+}
+.sitemap__list-item:active {
+    background-color: #C70039;
+}
+.policy:hover {
+    background-color: #FBFBFC;
+}
+.policy:active {
+    background-color: #d8d516;
+}
+.offer__link:hover {
+    color: #089733;
+    font-size: 28px;
+    font-style: italic;
+}
+.offer__link:active {
+    color: #C70039;
+    font-size: 28px;
+    font-style: italic;
+}
